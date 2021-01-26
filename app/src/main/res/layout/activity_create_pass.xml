@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreatePassActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_pass"
+        android:drawableLeft="@drawable/ic_pass"
+        android:drawablePadding="5dp"
+        android:hint="Enter New Password"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_repeat_pass"
+        android:drawableLeft="@drawable/ic_repeat_pass"
+        android:drawablePadding="5dp"
+        android:hint="Repeat Password"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_btn"
+        android:backgroundTint="#F3C200"
+        android:text="CONFIRM"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="17dp"/>
+</LinearLayout>
